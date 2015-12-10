@@ -1,3 +1,85 @@
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*body*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+section h1 {
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	line-height: 2em;
+	letter-spacing: 0.2px;
+	color: #0d4fa3;
+	margin: 0.5em 0.5em;
+}
+/*header*/
+header {
+	background-color: #fff;
+}
+header img {
+	width: 125px;
+    margin: 0 0 0 2em;
+}
+nav {
+    float: right;
+}
+ul {
+	list-style: none;
+}
+nav ul {
+    margin: 2em 3em;
+}
+nav li {
+    display: inline-block;
+}
+nav li a {
+	text-transform: uppercase;
+	color: #222;
+	margin: 0.5em;
+	font-size: 13pt;
+	line-height: 13pt;
+	font-family: 'Montserrat', sans-serif;
+}
+nav li a:hover {
+	color: #0d4fa3;
+}
+section.hero {
+	background: transparent url("../images/background-new-resize.jpg") center top no-repeat;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+}
+h1.intro-copy {
+	font-size: 3em;
+	line-height: 1.2em;
+    padding: 3em 12%;
+    color: #fff;
+    text-transform: inherit;
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+/*section about*/
+
+section#about {
+	padding: 15px 13%;
+}
+section#about p {
+	font-size: 14pt;
+	line-height: 16pt;
+	letter-spacing: 0.05px;
+	margin-bottom: 0.5em;
+	font-family: 'Montserrat', sans-serif;
+	color: #212121;
+}
+
