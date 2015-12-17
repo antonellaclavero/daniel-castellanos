@@ -115,3 +115,23 @@ section.our-team .team {
 .member p {
 	text-align: center;
 }
+
+/*section companies*/
+section.companies {
+	padding: 2em 2% 0 6%;
+	margin-bottom: 3em;
+}
+section.companies .team {
+	overflow: auto;
+    text-align: left;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.companies ul.container {
+	padding: 2em 11%;
+}
+section#companies ul.container img {
+	width: 150px;
+	height: 130px;
+}
+
