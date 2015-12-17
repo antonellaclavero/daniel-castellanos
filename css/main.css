@@ -73,18 +73,19 @@ h1.intro-copy {
 
 section#about {
 	padding: 15px 13%;
+	background-color: #f6f7f7;
 }
 section#about p {
 	font-size: 14pt;
-	line-height: 16pt;
+	line-height: 20pt;
 	letter-spacing: 0.05px;
 	margin-bottom: 0.5em;
-	font-family: 'Montserrat', sans-serif;
 	color: #212121;
 }
 section.our-team {
 	padding: 2em 2% 0 6%;
 	margin-bottom: 3em;
+	background-color: #f6f7f7;
 }
 section.our-team .team {
     overflow: auto;
@@ -107,4 +108,10 @@ section.our-team .team {
     margin-bottom: 10px;
     display: block;
     margin: 1em auto;
+}
+.member h2 {
+	text-align: center;
+}
+.member p {
+	text-align: center;
 }
