@@ -118,17 +118,23 @@ section.our-team .team {
 
 /*section companies*/
 section.companies {
-	padding: 2em 2% 0 6%;
+	padding: 0 2% 0 6%;
 	margin-bottom: 3em;
 }
-section.companies .team {
+section.companies .insurances {
 	overflow: auto;
     text-align: left;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 .companies ul.container {
-	padding: 2em 11%;
+	padding: 2em 5%;
+}
+.companies .company {
+    float: left;
+    margin-right: 2%;
+    width: 18%;
+    list-style: none;
 }
 section#companies ul.container img {
 	width: 150px;
