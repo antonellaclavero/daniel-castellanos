@@ -83,7 +83,7 @@ section#about p {
 	color: #212121;
 }
 section.our-team {
-	padding: 2em 2% 0 6%;
+	padding: 2em 0;
 	margin-bottom: 3em;
 	background-color: #f6f7f7;
 }
@@ -94,7 +94,7 @@ section.our-team .team {
     margin-bottom: 0;
 }
 .our-team ul.container {
-	padding: 2em 11%;
+	padding: 2em 8%;
 }
 .our-team .member {
     float: left;
@@ -128,7 +128,7 @@ section.companies .insurances {
     margin-bottom: 0;
 }
 .companies ul.container {
-	padding: 2em 5%;
+	padding: 3em 7%;
 }
 .companies .company {
     float: left;
@@ -136,8 +136,22 @@ section.companies .insurances {
     width: 18%;
     list-style: none;
 }
-/*section#companies ul.container img {
-	width: 150px;
-	height: 130px;
-}*/
-
+section.companies ul.container img {
+	margin: 0 auto;
+	display: block;
+}
+section.companies ul.container p {
+	margin-top: 1em;
+}
+ul.quote li {
+	font-size: 14pt;
+	line-height: 14pt;
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+ul.quote p {
+	margin: 1em 0 1em 0;
+}
+strong {
+	font-weight: bold;
+}
