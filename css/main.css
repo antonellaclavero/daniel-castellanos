@@ -148,9 +148,13 @@ ul.quote li {
 	text-align: center;
 	margin-bottom: 0.2em;
 }
+ul.quote {
+	margin: 4em 0 4em 0;
+}
 ul.quote p {
 	margin: 1em 0 1em 0;
 }
+
 strong {
 	font-weight: bold;
 }
@@ -169,7 +173,7 @@ section#insurance .container.even {
     background-color: #f6f7f7;
 }
 section#insurance .container {
-    padding: 4em 8%;
+    padding: 0 8%;
     margin-left: 4%;
 }
 li.card-insurance {
