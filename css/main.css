@@ -42,17 +42,17 @@ nav li {
 }
 nav li a {
 	text-transform: uppercase;
-	color: #222;
+	color: #0d4fa3;
 	margin: 0.5em;
 	font-size: 13pt;
 	line-height: 13pt;
 	font-family: 'Montserrat', sans-serif;
 }
 nav li a:hover {
-	color: #0d4fa3;
+	color: #debf5a;
 }
 section.hero {
-	background: transparent url("../images/background-new-resize.jpg") center top no-repeat;
+	background: transparent url("../images/background-2.jpg") center top no-repeat;
     width: 100%;
     display: table;
     overflow: hidden;
