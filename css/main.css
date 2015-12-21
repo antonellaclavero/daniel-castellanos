@@ -25,7 +25,7 @@ header {
 	background-color: #fff;
 }
 header img {
-	width: 125px;
+	width: 160px;
     margin: 0 0 0 2em;
 }
 nav {
@@ -35,7 +35,7 @@ ul {
 	list-style: none;
 }
 nav ul {
-    margin: 2em 3em;
+    margin: 3em 3em;
 }
 nav li {
     display: inline-block;
@@ -52,7 +52,7 @@ nav li a:hover {
 	color: #debf5a;
 }
 section.hero {
-	background: transparent url("../images/background-2.jpg") center top no-repeat;
+	background: transparent url("../images/background-3.jpg") center top no-repeat;
     width: 100%;
     display: table;
     overflow: hidden;
