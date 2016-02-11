@@ -158,23 +158,27 @@ section.companies ul.container p {
 section.info {
 	background-color: #1F4180;
     color: #fff;
-    padding: 15px 10%;
+    padding: 35px 10%;
 }
-ul.quote li {
-	font-size: 14pt;
-	line-height: 14pt;
+section.info h2.quote {
+    font-size: 18pt;
+    line-height: 21pt;
+    text-align: center;
+    padding: 0 11%;
+}
+ul.check-list {
+    list-style-image: url("../images/icon-check.svg");
+    list-style-position: outside;
+    padding: 10px 40%;
+    margin-top: 1em;
+}
+ul.check-list li {
+	font-size: 15pt;
+	line-height: 18pt;
 	text-align: center;
 	margin-bottom: 0.2em;
 }
-ul.quote {
-	margin: 4em 0 4em 0;
-}
-ul.quote p {
-	margin: 1em 0 1em 0;
-	letter-spacing: 0.2px;
-    line-height: 16pt;
-    font-size: 16pt;
-}
+
 strong {
 	font-weight: bold;
 }
