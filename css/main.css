@@ -208,8 +208,18 @@ li.card-insurance {
     padding: 3%;
     list-style: none;
     border: 1px solid #debf5a;
-    min-height: 12em;
+    min-height: 13em;
     background-color: #fff;
     border-radius: 3.5px;
+}
+li.card-insurance img {
+    float: left;
+    width: 28px;
+    margin-top: 0.6px;	
+}
+li.card-insurance h2 {
+	margin: 0.5em 0 1em 13%;
+    font-size: 14pt;
+    text-align: left;
 }
 	
