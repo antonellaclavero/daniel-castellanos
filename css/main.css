@@ -184,40 +184,43 @@ strong {
 }
 
 /*section insurance*/
-section#insurance {
+section#insurance,
+.container.even.services {
 	background-color: #f6f7f7;
+}
+section#insurance {
 	padding: 30px 0;
 }
-section#insurance .services {
+section#insurance h1 {
+	margin: 0;
+}
+section.container {
+    padding: 0 11%;
     overflow: auto;
-    text-align: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
-section#insurance .container.even {
-    background-color: #f6f7f7;
+section.container div.column {
+    float: left;
+    width: 30%;
+    margin-right: 3.5%;
 }
-section#insurance .container {
-    padding: 0 8%;
-    margin-left: 4%;
+section.container div.column.last {
+    margin: 0;
 }
-li.card-insurance {
-	float: left;
-    margin: 0  2% 2% 0;
-    width: 25%;
-    padding: 3%;
+article.card-insurance {
     list-style: none;
     border: 1px solid #debf5a;
-    min-height: 13em;
+    min-height: 14em;
     background-color: #fff;
     border-radius: 3.5px;
+    margin: 0 0 10% 0;
+    padding: 5% 6%;
 }
-li.card-insurance img {
+article.card-insurance img {
     float: left;
     width: 28px;
     margin-top: 0.6px;	
 }
-li.card-insurance h2 {
+article.card-insurance h2 {
 	margin: 0.5em 0 1em 13%;
     font-size: 14pt;
     text-align: left;
