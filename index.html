@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
 	<link rel="icon" type="images" href="images/logo.png">
 </head>
 <body>
@@ -255,20 +256,12 @@
 			</div>
 		</section>
 		<!--En esta sección hay mapa con location y foto de portada-->
-		<!--section id="contact">
-			<img src="">
-			<ul>
-				<li>
-					<p></p>
-				</li>
-				<li>
-					<p></p>
-				</li>
-				<li>
-					<p></p>
-				</li>
-			</ul>
-		</section-->
+		<section id="contact">
+			 <div id="map">
+
+
+			 </div>
+		</section>
 		<!--footer>
 			<ul>
 				<li>
@@ -290,5 +283,20 @@
 				</li>
 			</ul>
 		</footer-->
+		<script src="https://maps.googleapis.com/maps/api/js"
+         async defer></script>
+        <script>
+  			function initMap() {
+        		var mapDiv = document.getElementById('map');
+        		var map = new google.maps.Map(mapDiv, {
+          		center: {lat: -32.3149468, lng: -58.0845819 },
+          		zoom: 20
+        	});
+      	}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer>
+        </script>
+
 </body>
 </html>

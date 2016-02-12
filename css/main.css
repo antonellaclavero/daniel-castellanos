@@ -261,4 +261,12 @@ article.card-insurance p {
     font-size: 23px;
     color: #1F4180;
 }
+
+/*footer*/
+
+div#map {
+	height: 400px;
+	width: 500px;
+	background-color: #ccc;
+}
 	
