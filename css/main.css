@@ -223,6 +223,11 @@ article.card-insurance img {
 article.card-insurance h2 {
 	margin: 0.5em 0 1em 13%;
     font-size: 14pt;
+    line-height: 14pt;
     text-align: left;
+    color: #1F4180;
+}
+article.card-insurance p {
+	color: #212121;
 }
 	
