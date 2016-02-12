@@ -213,7 +213,7 @@ article.card-insurance {
     background-color: #fff;
     border-radius: 3.5px;
     margin: 0 0 10% 0;
-    padding: 5% 6%;
+    padding: 7% 9%;
 }
 article.card-insurance img {
     float: left;
@@ -229,5 +229,26 @@ article.card-insurance h2 {
 }
 article.card-insurance p {
 	color: #212121;
+	font-size: 12pt;
+    line-height: 12pt;
+    margin-bottom: 1em;
+    letter-spacing: 0.2px;
+}
+.bulleted-list li {
+    text-align: left;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+}
+.bulleted-list li:before {
+    position: absolute;
+    left: 0;
+    top: -1px;
+    content: "• ";
+    font-size: 23px;
+    color: #1F4180;
 }
 	
