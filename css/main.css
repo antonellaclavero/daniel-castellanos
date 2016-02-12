@@ -71,6 +71,12 @@ h1.intro-copy {
     font-family: 'Montserrat', sans-serif;
     text-transform: inherit;
 }
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+li {
+	font-family: 'Open Sans', sans-serif;
+}
 
 /*section about*/
 
