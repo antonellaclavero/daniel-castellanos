@@ -262,6 +262,35 @@ article.card-insurance p {
     color: #1F4180;
 }
 
+/*section class="get-in-touch"*/
+section.get-in-touch {
+    text-align: center;
+}
+section.get-in-touch h3 {
+    font-size: 16pt;
+    line-height: 16pt;
+    margin-bottom: 0.2em;
+}
+.btn.btn-center {
+    text-align: center;
+    margin-top: 1.5em;
+}
+.btn {
+    border: solid 2px #fff;
+    padding: 1em 3%;
+    color: #fff;
+    background-color: #1F4180;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+a.btn:hover {
+    color: #debf5a;
+    border: solid 2px #debf5a;
+}
+
 /*footer*/
 
 div#map {
