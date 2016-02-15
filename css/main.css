@@ -312,9 +312,19 @@ footer.footer-one p {
     letter-spacing: 0.2px;
 }
 /*footer two*/
+footer.footer-two {
+    padding: 45px 11%;
+}
 div#map {
 	height: 400px;
 	width: 500px;
 	background-color: #ccc;
+    float: left;
 }
+footer.footer-two img {
+    float: right;
+    width: 550px;
+    height: 400px;
+}
+
 	
