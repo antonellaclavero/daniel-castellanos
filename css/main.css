@@ -311,7 +311,9 @@ footer div.footer-one p {
     line-height: 17pt;
     letter-spacing: 0.2px;
 }
+
 /*footer two*/
+
 footer div.footer-two {
     padding: 45px 11%;
     overflow: auto;
@@ -326,6 +328,99 @@ footer div#map {
 footer div.footer-two img {
     float: right;
     height: 400px;
+}
+
+@media screen and (max-width: 1200px) {
+    section#about {
+        padding: 35px 7%;
+    }
+    section.our-team ul.container {
+        padding: 5px 4%;
+    }
+    section.companies {
+        padding: 30px 0%;
+    }
+    section.companies ul.container {
+        padding: 3em 4%;
+    }
+    section.info {  
+        padding: 35px 0%;
+    }
+    ul.check-list {
+        padding: 10px 38%;
+    }
+    section.container {
+        padding: 0 4%;
+    }
+    footer div.footer-one {
+        padding: 35px 0%;
+    }
+    footer div.footer-two {
+        padding: 45px 3%;
+    }
+}
+@media screen and (max-width: 700px) {
+    header img {
+        width: 145px;
+        margin: 0.5em;
+    }
+    nav ul {
+        margin: 3em 1em;
+    }
+    nav li a {
+        font-size: 12pt;
+        line-height: 12pt;
+    }
+    h1.intro-copy {
+        padding: 4em 0%;
+    }
+    section.companies ul.container {
+        padding: 0em 0%;
+    }
+    .our-team .member {
+        float: none;
+        width: 100%;
+    }
+    .companies .company {
+        float: none;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+    section.companies ul.container p {
+        line-height: 16pt;
+    }
+    section.info h2.quote {
+        padding: 0 6%;
+    }
+    ul.check-list {
+        padding: 10px 33%;
+    }
+    section.container div.column {
+        float: none;
+        width: 100%;
+    }
+    article.card-insurance {
+        padding: 4% 3%;
+        min-height: 0;
+    }
+    article.card-insurance h2 {
+        margin: 0.5em 0 1em 7%;
+    }
+    footer div.footer-two {
+        padding: 0;
+    }
+    footer div#map {
+        margin: 2em 0;
+        float: none;
+    }
+    footer div.footer-two {
+        padding: 0 14%;
+    }
+    footer div.footer-two img {
+        float: none;
+        width: 500px;
+    }
+
 }
 
 	
