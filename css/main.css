@@ -420,7 +420,45 @@ footer div.footer-two img {
         float: none;
         width: 500px;
     }
-
+}
+@media screen and (max-width: 700px) {
+    header img {
+        margin: 0 auto;
+        display: block;
+    }
+    nav {
+        float: none;
+    }
+    nav ul {
+        margin: 1em 1em;
+    }
+    nav li {
+        display: block;
+        text-align: center;
+        margin: 0.5em 0;
+    }
+    h1.intro-copy {
+        padding: 3em 3%;
+    }
+    ul.check-list {
+        padding: 10px 24%;
+    }
+    article.card-insurance {
+        padding: 5% 7%;
+    }
+    article.card-insurance h2 {
+        margin: 0.5em 0 1em 11%;
+    }
+    footer div#map {
+        width: 100%;
+    }
+    footer div.footer-two img {
+        width: 100%;
+        height: auto;
+    }
+    footer div.footer-two {
+        padding: 0px 11%;
+    }
 }
 
 	
