@@ -430,7 +430,8 @@ footer div.footer-two img {
         float: none;
     }
     nav ul {
-        margin: 1em 1em;
+        display: block;
+        margin: 1em auto;
     }
     nav li {
         display: block;
@@ -439,6 +440,10 @@ footer div.footer-two img {
     }
     h1.intro-copy {
         padding: 3em 3%;
+    }
+    .intro-copy strong {
+        font-weight: 100;
+        font-size: 43pt;
     }
     ul.check-list {
         padding: 10px 24%;
