@@ -439,14 +439,18 @@ footer div.footer-two img {
         margin: 0.5em 0;
     }
     h1.intro-copy {
-        padding: 3em 3%;
+        padding: 45px 0;
     }
     .intro-copy strong {
         font-weight: 100;
-        font-size: 43pt;
+        font-size: 34pt;
+        line-height: 34pt;
+    }
+    section.info h2.quote {
+        padding: 0 2%;
     }
     ul.check-list {
-        padding: 10px 24%;
+        padding: 10px 15%;
     }
     article.card-insurance {
         padding: 5% 7%;
