@@ -64,12 +64,22 @@ section.hero {
 h1.intro-copy {
 	font-size: 2em;
 	line-height: 1.5em;
-    padding: 5em 12%;
+    padding: 4em 12% 0;
     color: #fff;
     margin: 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     text-transform: inherit;
+}
+p.intro-copy {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: inherit;
+    padding: 0.5em 12% 0;
 }
 p {
 	font-family: 'Open Sans', sans-serif;
@@ -114,12 +124,12 @@ section.our-team .team {
 	width: 100%;
 }
 .member img {
-	height: 200px;
-    width: 200px;
+    height: 255px;
+    width: 175px;
     margin-bottom: 10px;
     display: block;
     margin: 1em auto;
-    border-radius: 50%;
+    border-radius: 15%;
     box-shadow: #fff 0 0 0 6px, #bbbbbb 0 0 0 3px;
 }
 .member h2 {
