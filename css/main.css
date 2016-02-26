@@ -205,6 +205,7 @@ strong {
 }
 
 /*section insurance*/
+
 section#insurance,
 .container.even.services {
 	background-color: #f6f7f7;
@@ -229,24 +230,39 @@ section.container div.column.last {
 }
 article.card-insurance {
     list-style: none;
-    border: 1px solid #debf5a;
+    /*border: 1px solid #debf5a;*/
     min-height: 14em;
     background-color: #fff;
-    border-radius: 3.5px;
+    /*border-radius: 3.5px;*/
     margin: 0 0 10% 0;
-    padding: 7% 9%;
+    padding: 7% 5%;
+    border-color: #f7f9fb #f1f4f5 #e6e9ea #f1f4f5;
+    -webkit-box-shadow: 0 1px 0 0 #f1f4f5;
+    box-shadow: 0 4px 4px 0 #f1f4f5;
 }
 article.card-insurance img {
-    float: left;
-    width: 28px;
-    margin-top: 0.6px;	
+    width: 42px;
+    height: 42px;
+    display: block;
+    margin: 0.6px auto;	
+}
+article.card-insurance img.car {
+    width: 48px;
+} 
+article.card-insurance img.truck {
+    width: 62px;
+}
+article.card-insurance img.boat {
+    width: 52px;
 }
 article.card-insurance h2 {
-	margin: 0.5em 0 1em 13%;
+	margin: 0.5em 0 1em 0;
     font-size: 14pt;
     line-height: 14pt;
-    text-align: left;
+    text-align: center;
     color: #1F4180;
+    border-bottom: 2px solid #f1f1f1;
+    padding: 0 0 4% 0;
 }
 article.card-insurance p {
 	color: #212121;
@@ -254,6 +270,7 @@ article.card-insurance p {
     line-height: 12pt;
     margin-bottom: 1em;
     letter-spacing: 0.2px;
+    text-align: center;
 }
 .bulleted-list li {
     text-align: left;
@@ -261,12 +278,12 @@ article.card-insurance p {
     padding: 0;
     list-style: none;
     position: relative;
-    padding-left: 1.5em;
+    padding-left: 16%;
     margin-top: 0.5em;
 }
 .bulleted-list li:before {
     position: absolute;
-    left: 0;
+    left: 26px;
     top: -1px;
     content: "• ";
     font-size: 23px;
