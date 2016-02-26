@@ -166,10 +166,12 @@ section.companies .insurances {
 section.companies ul.container img {
 	margin: 0 auto;
 	display: block;
-}
+}  
 section.companies ul.container p {
 	margin-top: 1em;
 	text-align: center;
+    line-height: 16pt;
+    letter-spacing: 0.3px;
 }
 
 /*section info*/
@@ -194,7 +196,7 @@ ul.check-list {
 ul.check-list li {
 	font-size: 15pt;
 	line-height: 18pt;
-	text-align: center;
+	text-align: left;
 	margin-bottom: 0.2em;
 }
 
