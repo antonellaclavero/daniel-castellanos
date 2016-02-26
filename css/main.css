@@ -230,10 +230,8 @@ section.container div.column.last {
 }
 article.card-insurance {
     list-style: none;
-    /*border: 1px solid #debf5a;*/
     min-height: 14em;
     background-color: #fff;
-    /*border-radius: 3.5px;*/
     margin: 0 0 10% 0;
     padding: 7% 5%;
     border-color: #f7f9fb #f1f4f5 #e6e9ea #f1f4f5;
