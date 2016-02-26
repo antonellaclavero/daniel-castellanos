@@ -52,7 +52,7 @@ nav li a:hover {
 	color: #debf5a;
 }
 section.hero {
-	background: transparent url("../images/background-3.jpg") center top no-repeat;
+	background: transparent url("../images/background.jpg") center top no-repeat;
     width: 100%;
     display: table;
     overflow: hidden;
@@ -64,7 +64,7 @@ section.hero {
 h1.intro-copy {
 	font-size: 2em;
 	line-height: 1.5em;
-    padding: 4em 12% 0;
+    padding: 5em 12% 0;
     color: #fff;
     margin: 0;
     text-align: center;
