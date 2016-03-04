@@ -261,6 +261,8 @@ article.card-insurance h2 {
     color: #1F4180;
     border-bottom: 2px solid #f1f1f1;
     padding: 0 0 4% 0;
+    font-weight: 700;
+    letter-spacing: 0.5px;
 }
 article.card-insurance p {
 	color: #212121;
