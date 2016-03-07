@@ -350,13 +350,14 @@ footer div.footer-two {
 }
 footer div#map {
 	height: 400px;
-	width: 500px;
+    width: 45%;
 	background-color: #ccc;
     float: left;
 }
 footer div.footer-two img {
     float: right;
     height: 400px;
+    width: 50%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -395,7 +396,7 @@ footer div.footer-two img {
         padding: 35px 0%;
     }
     footer div.footer-two {
-        padding: 45px 3%;
+        padding: 45px 6%;
     }
 }
 @media screen and (max-width: 700px) {
