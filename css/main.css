@@ -26,16 +26,16 @@ header {
 }
 header img {
 	width: 160px;
-    margin: 0 0 0 2em;
+  margin: 0 0 0 2em;
 }
 nav {
-    float: right;
+  float: right;
 }
 ul {
 	list-style: none;
 }
 nav ul {
-    margin: 3em 3em;
+  margin: 3em 3em;
 }
 nav li {
     display: inline-block;
@@ -53,10 +53,10 @@ nav li a:hover {
 }
 section.hero {
 	background: transparent url("../images/background.jpg") center top no-repeat;
-    width: 100%;
-    display: table;
-    overflow: hidden;
-    height: 469px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  height: 469px;
 }
 .intro-copy strong {
 	font-size: 2.2em;
@@ -64,22 +64,22 @@ section.hero {
 h1.intro-copy {
 	font-size: 2em;
 	line-height: 1.5em;
-    padding: 5em 12% 0;
-    color: #fff;
-    margin: 0;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: inherit;
+  padding: 5em 12% 0;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: inherit;
 }
 p.intro-copy {
-    font-size: 2em;
-    line-height: 1.5em;
-    color: #fff;
-    margin: 0;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: inherit;
-    padding: 0.5em 12% 0;
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: inherit;
+  padding: 0.5em 12% 0;
 }
 p {
 	font-family: 'Open Sans', sans-serif;
@@ -102,42 +102,42 @@ section#about p {
 	color: #212121;
 }
 section.our-team {
-    padding: 0 0 60px 0;
+  padding: 0 0 60px 0;
 	background-color: #f6f7f7;
 }
 section.our-team .team {
-    overflow: auto;
-    text-align: left;
-    padding-bottom: 0;
-    margin-bottom: 0;
+  overflow: auto;
+  text-align: left;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .our-team ul.container {
 	padding: 5px 8%;
 }
 .our-team .member {
-    float: left;
-    margin-right: 2%;
-    width: 23%;
-    list-style: none;
+  float: left;
+  margin-right: 2%;
+  width: 23%;
+  list-style: none;
 }
 .our-team .member.first {
 	width: 100%;
 }
 .member img {
-    height: 255px;
-    width: 175px;
-    margin-bottom: 10px;
-    display: block;
-    margin: 1em auto;
-    border-radius: 15%;
-    box-shadow: #fff 0 0 0 6px, #bbbbbb 0 0 0 3px;
+  height: 255px;
+  width: 175px;
+  margin-bottom: 10px;
+  display: block;
+  margin: 1em auto;
+  border-radius: 15%;
+  box-shadow: #fff 0 0 0 6px, #bbbbbb 0 0 0 3px;
 }
 .member h2 {
 	text-align: center;
 	font-weight: 600;
 	font-size: 13pt;
-    margin-bottom: 0.2em;
-    line-height: 13pt;
+  margin-bottom: 0.2em;
+  line-height: 13pt;
 }
 .member p {
 	text-align: center;
@@ -150,48 +150,55 @@ section.companies {
 }
 section.companies .insurances {
 	overflow: auto;
-    text-align: left;
-    padding-bottom: 0;
-    margin-bottom: 0;
+  text-align: left;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .companies ul.container {
 	padding: 3em 7%;
 }
 .companies .company {
-    float: left;
-    margin-right: 2%;
-    width: 18%;
-    list-style: none;
+  float: left;
+  margin-right: 2%;
+  width: 18%;
+  list-style: none;
 }
 section.companies ul.container img {
 	margin: 0 auto;
 	display: block;
-}  
+} 
+section.companies ul.container img.logo-mapfre-resize {
+  width: 172px;
+  height: 60px;
+} 
 section.companies ul.container p {
 	margin-top: 1em;
 	text-align: center;
-    line-height: 16pt;
-    letter-spacing: 0.3px;
+  line-height: 16pt;
+  letter-spacing: 0.3px;
+}
+section.companies ul.container p.info-mapfre {
+  margin-top: 1.3em;
 }
 
 /*section info*/
 
 section.info {
 	background-color: #1F4180;
-    color: #fff;
-    padding: 35px 10%;
+  color: #fff;
+  padding: 35px 10%;
 }
 section.info h2.quote {
-    font-size: 18pt;
-    line-height: 21pt;
-    text-align: center;
-    padding: 0 11%;
+  font-size: 18pt;
+  line-height: 21pt;
+  text-align: center;
+  padding: 0 11%;
 }
 ul.check-list {
-    list-style-image: url("../images/icon-check.svg");
-    list-style-position: outside;
-    padding: 10px 40%;
-    margin-top: 1em;
+  list-style-image: url("../images/icon-check.svg");
+  list-style-position: outside;
+  padding: 10px 40%;
+  margin-top: 1em;
 }
 ul.check-list li {
 	font-size: 15pt;
@@ -217,147 +224,147 @@ section#insurance h1 {
 	margin: 0;
 }
 section.container {
-    padding: 0 11%;
-    overflow: auto;
+  padding: 0 11%;
+  overflow: auto;
 }
 section.container div.column {
-    float: left;
-    width: 30%;
-    margin-right: 3.5%;
+  float: left;
+  width: 30%;
+  margin-right: 3.5%;
 }
 section.container div.column.last {
-    margin: 0;
+  margin: 0;
 }
 article.card-insurance {
-    list-style: none;
-    min-height: 14em;
-    background-color: #fff;
-    margin: 0 0 10% 0;
-    padding: 7% 5%;
-    border-color: #f7f9fb #f1f4f5 #e6e9ea #f1f4f5;
-    -webkit-box-shadow: 0 1px 0 0 #f1f4f5;
-    box-shadow: 0 4px 4px 0 #f1f4f5;
+  list-style: none;
+  min-height: 14em;
+  background-color: #fff;
+  margin: 0 0 10% 0;
+  padding: 7% 5%;
+  border-color: #f7f9fb #f1f4f5 #e6e9ea #f1f4f5;
+  -webkit-box-shadow: 0 1px 0 0 #f1f4f5;
+  box-shadow: 0 4px 4px 0 #f1f4f5;
 }
 article.card-insurance img {
-    width: 42px;
-    height: 42px;
-    display: block;
-    margin: 0.6px auto;	
+  width: 42px;
+  height: 42px;
+  display: block;
+  margin: 0.6px auto;	
 }
 article.card-insurance img.car {
-    width: 48px;
+  width: 48px;
 } 
 article.card-insurance img.truck {
-    width: 62px;
+  width: 62px;
 }
 article.card-insurance img.boat {
-    width: 52px;
+  width: 52px;
 }
 article.card-insurance h2 {
 	margin: 0.5em 0 1em 0;
-    font-size: 14pt;
-    line-height: 14pt;
-    text-align: center;
-    color: #1F4180;
-    border-bottom: 2px solid #f1f1f1;
-    padding: 0 0 4% 0;
-    font-weight: 700;
-    letter-spacing: 0.5px;
+  font-size: 14pt;
+  line-height: 14pt;
+  text-align: center;
+  color: #1F4180;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 0 0 4% 0;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 article.card-insurance p {
 	color: #212121;
 	font-size: 12pt;
-    line-height: 12pt;
-    margin-bottom: 1em;
-    letter-spacing: 0.2px;
-    text-align: center;
+  line-height: 12pt;
+  margin-bottom: 1em;
+  letter-spacing: 0.2px;
+  text-align: center;
 }
 .bulleted-list li {
-    text-align: left;
-    margin-bottom: 0;
-    padding: 0;
-    list-style: none;
-    position: relative;
-    padding-left: 16%;
-    margin-top: 0.5em;
+  text-align: left;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  padding-left: 16%;
+  margin-top: 0.5em;
 }
 .bulleted-list li:before {
-    position: absolute;
-    left: 26px;
-    top: -1px;
-    content: "• ";
-    font-size: 23px;
-    color: #1F4180;
+  position: absolute;
+  left: 26px;
+  top: -1px;
+  content: "• ";
+  font-size: 23px;
+  color: #1F4180;
 }
 
 /*section class="get-in-touch"*/
 section.get-in-touch {
-    text-align: center;
+  text-align: center;
 }
 section.get-in-touch h2 {
-    margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 section.get-in-touch h3 {
-    font-size: 16pt;
-    line-height: 16pt;
-    margin-bottom: 0.2em;
+  font-size: 16pt;
+  line-height: 16pt;
+  margin-bottom: 0.2em;
 }
 .btn.btn-center {
-    text-align: center;
-    margin-top: 1.5em;
+  text-align: center;
+  margin-top: 1.5em;
 }
 .btn {
-    border: solid 2px #fff;
-    padding: 1em 3%;
-    color: #fff;
-    background-color: #1F4180;
-    text-transform: uppercase;
-    font-size: 15px;
-    letter-spacing: 2px;
-    margin-bottom: 1.5em;
-    display: inline-block;
+  border: solid 2px #fff;
+  padding: 1em 3%;
+  color: #fff;
+  background-color: #1F4180;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 1.5em;
+  display: inline-block;
 }
 a.btn:hover {
-    color: #debf5a;
-    border: solid 2px #debf5a;
+  color: #debf5a;
+  border: solid 2px #debf5a;
 }
 
 /*footer one*/
 
 footer div.footer-one {
-    padding: 35px 15%;
-    text-align: center;
-    background-color: #fff;
+  padding: 35px 15%;
+  text-align: center;
+  background-color: #fff;
 }
 footer div.footer-one h2 {
-    font-size: 14pt;
-    line-height: 14pt;
-    font-weight: 600;
-    margin: 0.5em 0;
+  font-size: 14pt;
+  line-height: 14pt;
+  font-weight: 600;
+  margin: 0.5em 0;
 }
 footer div.footer-one p {
-    font-size: 13pt;
-    line-height: 17pt;
-    letter-spacing: 0.2px;
+  font-size: 13pt;
+  line-height: 17pt;
+  letter-spacing: 0.2px;
 }
 
 /*footer two*/
 
 footer div.footer-two {
-    padding: 45px 11%;
-    overflow: auto;
-    background-color: #f6f7f7;
+  padding: 45px 11%;
+  overflow: auto;
+  background-color: #f6f7f7;
 }
 footer div#map {
 	height: 400px;
-    width: 45%;
+  width: 45%;
 	background-color: #ccc;
-    float: left;
+  float: left;
 }
 footer div.footer-two img {
-    float: right;
-    height: 400px;
-    width: 50%;
+  float: right;
+  height: 400px;
+  width: 50%;
 }
 
 @media screen and (max-width: 1200px) {
